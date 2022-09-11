@@ -6,6 +6,7 @@ import java.util.Map;
 
 public class TwoSum {
 
+    // Time complexity: O(n*log(n))?
     public boolean findTwoSumReturnBool(int[] input, int targetValue) {
 
         int pointerOne = 0;
@@ -24,7 +25,7 @@ public class TwoSum {
         return false;
     }
 
-    // Time complexity: O(n)
+    // Time complexity: O(n)?
     public static int[] findTwoSum(int[] nums, int target) {
         Map<Integer, Integer> numMap = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
